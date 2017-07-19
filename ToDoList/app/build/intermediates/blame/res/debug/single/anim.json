@@ -1,27 +1,15 @@
 [
     {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_fab_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
         "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
@@ -44,12 +32,12 @@
         "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_snackbar_out.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_fab_in.xml"
     },
     {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
@@ -64,32 +52,20 @@
         "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_fab_out.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
@@ -100,12 +76,100 @@
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\714aa8b7bc8b4e35519217c99868c9466b53b607\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -116,8 +180,8 @@
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\9a7619c3bc24ff23df640cbf49d47d4862edf707\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\mark\\.android\\build-cache\\2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",

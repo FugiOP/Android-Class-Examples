@@ -33,6 +33,8 @@ public class UpdateToDoFragment extends DialogFragment {
     private Button done;
     private final String TAG = "updatetodofragment";
     private long id;
+
+    //Added status, category and spinner
     private String status;
     private Spinner spinner;
     private String category;
@@ -40,7 +42,8 @@ public class UpdateToDoFragment extends DialogFragment {
 
     public UpdateToDoFragment(){}
 
-    public static UpdateToDoFragment newInstance(int year, int month, int day, String descrpition, long id,String status,String category) {
+    //Added status and category to parameters
+    public static UpdateToDoFragment newInstance(int year, int month, int day, String descrpition, long id,String status,String category){
         UpdateToDoFragment f = new UpdateToDoFragment();
 
         // Supply num input as an argument.
@@ -59,6 +62,7 @@ public class UpdateToDoFragment extends DialogFragment {
 
     //To have a way for the activity to get the data from the dialog
     public interface OnUpdateDialogCloseListener {
+        //added status and category to parameters
         void closeUpdateDialog(int year, int month, int day, String description, long id,String status,String category);
     }
 
@@ -68,16 +72,21 @@ public class UpdateToDoFragment extends DialogFragment {
         toDo = (EditText) view.findViewById(R.id.toDo);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
+
+        //reference to done btn in fragment
         done = (Button) view.findViewById(R.id.done);
 
+        //reference to spinner in update fragment
         spinner = (Spinner) view.findViewById(R.id.addcategory);
 
+        //List of categories for spinner
         List<String> categories = new ArrayList<String>();
         categories.add("Finance");
         categories.add("School");
         categories.add("Work");
         categories.add("Family");
 
+        //Attaching data adapter to spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, categories);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(dataAdapter);
@@ -104,12 +113,16 @@ public class UpdateToDoFragment extends DialogFragment {
                 UpdateToDoFragment.this.dismiss();
             }
         });
+
+        //Checking status value for item clicked and setting button text to 'Set as Done' or 'Set as Not Done'
         if(status.equals("true")){
             done.setText("Set as Not Done");
 
         }else{
             done.setText("Set as Done");
         }
+
+        //click listener for 'done' btn
         done.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

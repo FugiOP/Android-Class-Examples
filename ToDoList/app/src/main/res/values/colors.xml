@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name ="done">#B0FFB0</color>
     <color name="notdone">#FFB0B0</color>
+    <color name="light">#EEEEEE</color>
 </resources>

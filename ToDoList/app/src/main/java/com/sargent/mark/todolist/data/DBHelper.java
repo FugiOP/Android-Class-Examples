@@ -21,6 +21,7 @@ public class DBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        //Added column status and category to CREATE queryString
         String queryString = "CREATE TABLE " + Contract.TABLE_TODO.TABLE_NAME + " ("+
                 Contract.TABLE_TODO._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION + " TEXT NOT NULL, " +
@@ -35,6 +36,7 @@ public class DBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        //When database version is updated, drop table and recreate it
         if(oldVersion<newVersion){
             db.execSQL("DROP TABLE "+ Contract.TABLE_TODO.TABLE_NAME+" ");
             String queryString = "CREATE TABLE " + Contract.TABLE_TODO.TABLE_NAME + " ("+

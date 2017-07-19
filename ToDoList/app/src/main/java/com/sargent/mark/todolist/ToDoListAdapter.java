@@ -68,9 +68,11 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
         TextView due;
         String duedate;
+        long id;
+
+        //Added category and status parameters
         String category;
         String status;
-        long id;
 
         ItemHolder(View view) {
             super(view);
@@ -86,11 +88,15 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
             duedate = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE));
             description = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION));
+
+            //Getting status and category values for the todoItem
             status = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_STATUS));
             category = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY));
 
             due.setText(duedate);
             descr.setText(description);
+
+            //Setting background color to todoItem description depending on its done status
             if (status.equals("false")) {
                 descr.setBackgroundColor(Color.parseColor("#FFB0B0"));
             } else {

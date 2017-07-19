@@ -47,16 +47,22 @@ public class AddToDoFragment extends DialogFragment{
         toDo = (EditText) view.findViewById(R.id.toDo);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
+
+        //reference to spinner in fragment
         spinner = (Spinner) view.findViewById(R.id.addcategory);
 
+        //options for spinner
         List<String> categories = new ArrayList<String>();
         categories.add("Finance");
         categories.add("School");
         categories.add("Work");
         categories.add("Family");
 
+        //Creating adapter for spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this.getActivity(), android.R.layout.simple_spinner_item, categories);
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
         spinner.setAdapter(dataAdapter);
 
         final Calendar c = Calendar.getInstance();

@@ -6,6 +6,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.FragmentManager;
+import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,6 +14,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -32,12 +34,13 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
     private RecyclerView rv;
     private FloatingActionButton button;
-    private Button saveBtn;
     private DBHelper helper;
     private Cursor cursor;
     private SQLiteDatabase db;
     ToDoListAdapter adapter;
     private final String TAG = "mainactivity";
+
+    //Spinner query to show only selected category, default is ALL
     public static String query = "All";
 
     @Override
@@ -56,8 +59,17 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
             }
         });
 
-        // Spinner element
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        rv = (RecyclerView) findViewById(R.id.recyclerView);
+        rv.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.spinner, menu);
+
+        // reference to spinner in main
+        MenuItem item = menu.findItem(R.id.spinner);
+        Spinner spinner = (Spinner) MenuItemCompat.getActionView(item);
 
         // Spinner click listener
         spinner.setOnItemSelectedListener(this);
@@ -72,17 +84,13 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
         // Creating adapter for spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, categories);
-
-        // Drop down layout style - list view with radio button
         dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         // attaching data adapter to spinner
         spinner.setAdapter(dataAdapter);
 
-        rv = (RecyclerView) findViewById(R.id.recyclerView);
-        rv.setLayoutManager(new LinearLayoutManager(this));
+        return true;
     }
-
     @Override
     protected void onStop() {
         super.onStop();
@@ -147,6 +155,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
 
     private Cursor getAllItems(SQLiteDatabase db) {
+        //Added WHERE CLAUSE to filter todoItems with category selected from spinner
         String whereClause = null;
         if(!(query.equals("All"))){
             whereClause=Contract.TABLE_TODO.COLUMN_NAME_CATEGORY + " = "+"'"+query+"'";
@@ -163,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
     }
 
     private long addToDo(SQLiteDatabase db, String date, String description,String category) {
+        //Added status and category values to insert query,default for status is false because it's a newly added todoItem
         ContentValues cv = new ContentValues();
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION, description);
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE, date);
@@ -181,6 +191,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
         String duedate = formatDate(year, month - 1, day);
 
+        //Added status and category values to ContentValues
         ContentValues cv = new ContentValues();
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION, description);
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE, duedate);
@@ -197,10 +208,12 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        //Checking what item in spinner was chosen
         String item = parent.getItemAtPosition(position).toString();
 
         // Showing selected spinner item
         Toast.makeText(parent.getContext(), "Selected: " + item, Toast.LENGTH_LONG).show();
+        //Setting query equal to category selected
         query = item;
         cursor = getAllItems(db);
         adapter.swapCursor(cursor);

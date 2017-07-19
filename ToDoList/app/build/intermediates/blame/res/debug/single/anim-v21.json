@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
@@ -9,6 +13,10 @@
     },
     {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\FugiBeast\\.android\\build-cache\\7448451955851a319363afa8148302b4227a68c6\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {

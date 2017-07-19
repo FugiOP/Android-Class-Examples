@@ -4,6 +4,14 @@
         "source": "C:\\Users\\mark\\Desktop\\AndroidClass\\inclass\\ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\FugiBeast\\Desktop\\lala\\Android-Class-Examples\\ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\FugiBeast\\Desktop\\ToDoList\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },

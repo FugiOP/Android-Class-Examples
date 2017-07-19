@@ -7,6 +7,8 @@ package com.sargent.mark.todolist.data;
 public class ToDoItem {
     private String description;
     private String dueDate;
+
+    //Added parameter status and category, and their getters and setters
     private String status;
     private String category;
 
