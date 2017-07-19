@@ -11,7 +11,7 @@ import android.util.Log;
 
 public class DBHelper extends SQLiteOpenHelper{
 
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 5;
     private static final String DATABASE_NAME = "items.db";
     private static final String TAG = "dbhelper";
 
@@ -24,7 +24,10 @@ public class DBHelper extends SQLiteOpenHelper{
         String queryString = "CREATE TABLE " + Contract.TABLE_TODO.TABLE_NAME + " ("+
                 Contract.TABLE_TODO._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION + " TEXT NOT NULL, " +
-                Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE " + "); ";
+                Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE, " +
+                Contract.TABLE_TODO.COLUMN_NAME_CATEGORY + " TEXT NOT NULL, " +
+                Contract.TABLE_TODO.COLUMN_NAME_STATUS + " TEXT NOT NULL " +
+                "); ";
 
         Log.d(TAG, "Create table SQL: " + queryString);
         db.execSQL(queryString);
@@ -32,6 +35,16 @@ public class DBHelper extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-//        db.execSQL("drop table " + Contract.TABLE_TODO.TABLE_NAME + " if exists;");
+        if(oldVersion<newVersion){
+            db.execSQL("DROP TABLE "+ Contract.TABLE_TODO.TABLE_NAME+" ");
+            String queryString = "CREATE TABLE " + Contract.TABLE_TODO.TABLE_NAME + " ("+
+                    Contract.TABLE_TODO._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
+                    Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION + " TEXT NOT NULL, " +
+                    Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE + " DATE, " +
+                    Contract.TABLE_TODO.COLUMN_NAME_CATEGORY + " TEXT, " +
+                    Contract.TABLE_TODO.COLUMN_NAME_STATUS + " TEXT NOT NULL " +
+                    "); ";
+            db.execSQL(queryString);
+        }
     }
 }

@@ -22,11 +22,22 @@
         android:layout_height="0dip"
         android:layout_weight=".8" />
 
+    <Spinner
+        android:id="@+id/addcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
     <Button
         android:id="@+id/add"
         android:layout_width="match_parent"
-        android:layout_height="0dip"
-        android:layout_weight=".1"
+        android:layout_height="wrap_content"
         android:text="Add" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

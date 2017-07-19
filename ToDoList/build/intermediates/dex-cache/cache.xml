@@ -2,40 +2,139 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-beta4\constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-beta4_1df21476f1048f245e73dd206ea858cbf229e36b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_9781deb6ce3fdb152a6e90f11779c2b89b5743bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\6b5d35d35d962a2cf212b7c138f899ff05879185\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_f6827269ed411b68a3557eb4917d18f286cbc1e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\35e1a9701a27a816eb290485606c51fe13a35937\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_3e0333834e38f566b081efd9e71aaffc916c5b69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\f27c8cfb2eea5ef8850ac559e47d5e125165aac6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_f2c6bebc55758ed5e4746b19e0d344cb86b20eb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\81ccc3e345fc56fc9763f0061e54072a988ef5b6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_4a46fed64d36ecd1ab6f79b5f1c14321a5e148c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\d14dfb6cb4e9fcf35274aa76d0488221a5ffcdad\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_57175b938f45dd983585533d441b4d8f2a2957ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\5732249f2cb929c97b55c90e3139109408feec7c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_2cf776425169bd1e5d77abf2339eec46f2747512.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\67d867b672945cebbc9f6e9270675bcdf23875dd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_2734e0c6bb8553c34ec611ee3bcf965d53e5413f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\7448451955851a319363afa8148302b4227a68c6\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3050c67c5aac8e1dafcd3bdd9b03bb4a4e00d72e/classes.dex" />
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_2c489c810cd49ab4a87c57ff38415f3bd9a5e7a7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\9a7619c3bc24ff23df640cbf49d47d4862edf707\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1c41d78b6335b2d6cedf2ad8cbc37a7ea7f98c22/classes.dex" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_7dd969dcd5aadd4b23ecaa54752a2432416f652b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/.android/build-cache/593250c810594616a1a15c7655a1a8c3b2646fc4/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\d192598e19789ad5d6839838525fae5885728896\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e0ef206c0c510729fb9cbbf7a4f25b276959675/classes.dex" />
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_5f4f95198cf6e34f7993dd161c82c4220504e482.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\79611136ca98f858522eec6d328d07c686f8f0fc\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="2fc0ab07413d9cefa13ce76688f98e63890faaa3">
-        <dex dex="/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_248a94d252828eb83a606f0af078799be5f1c862/classes.dex" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_bdfea90dff284c171133fdb8acf6ff9c2236838f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\4163d1e4a82cfef88a240c44ae7cb0e34b11a774\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_f9e40a4c67227b4f928fab0d7349118fc5069690.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\FugiBeast\.android\build-cache\3de25bbba7ef22cb7f1a6328977dbe856c479a2a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\FugiBeast\Desktop\ToDoList\app\build\intermediates\pre-dexed\debug\classes_fd156a3cf5db54fb3e3416f906754cd24bd36c95.jar" />
     </item>
 
 </items>

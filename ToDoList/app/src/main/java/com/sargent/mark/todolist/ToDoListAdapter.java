@@ -2,6 +2,7 @@ package com.sargent.mark.todolist;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -10,9 +11,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.sargent.mark.todolist.data.Contract;
-import com.sargent.mark.todolist.data.ToDoItem;
 
-import java.util.ArrayList;
 
 /**
  * Created by mark on 7/4/17.
@@ -46,7 +45,7 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
     }
 
     public interface ItemClickListener {
-        void onItemClick(int pos, String description, String duedate, long id);
+        void onItemClick(int pos, String duedate, long id,String description,String status,String category);
     }
 
     public ToDoListAdapter(Cursor cursor, ItemClickListener listener) {
@@ -65,11 +64,13 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
     class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView descr;
+        String description;
+
         TextView due;
         String duedate;
-        String description;
+        String category;
+        String status;
         long id;
-
 
         ItemHolder(View view) {
             super(view);
@@ -85,15 +86,25 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
             duedate = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE));
             description = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION));
-            descr.setText(description);
+            status = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_STATUS));
+            category = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY));
+
             due.setText(duedate);
+            descr.setText(description);
+            if (status.equals("false")) {
+                descr.setBackgroundColor(Color.parseColor("#FFB0B0"));
+            } else {
+                descr.setBackgroundColor(Color.parseColor("#B0FFB0"));
+            }
+
             holder.itemView.setTag(id);
+
         }
 
         @Override
         public void onClick(View v) {
             int pos = getAdapterPosition();
-            listener.onItemClick(pos, description, duedate, id);
+            listener.onItemClick(pos, duedate, id, description, status,category);
         }
     }
 
